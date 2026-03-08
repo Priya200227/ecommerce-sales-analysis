@@ -2,12 +2,17 @@
 ### Exploratory Sales & Customer Behavior Analysis — Retail / E-Commerce Industry
 
 ---
+### Dashboard Overview
 
+![Dashboard Preview](images/dashboard_preview.png)
+
+---
 # Executive Summary
 
 This project analyzes an **e-commerce retail dataset** to understand revenue performance, customer purchasing behavior, product performance, and return patterns.
 
 The goal was to identify **revenue drivers, return risks, and product-level performance** to help business stakeholders make better operational and marketing decisions.
+
 
 ### Business Impact
 
@@ -36,10 +41,6 @@ E-commerce companies often struggle with understanding:
 - Which customers and products contribute the most to business growth
 
 This project aims to answer those questions through **data analysis and dashboarding**.
-
-### Dashboard Overview
-
-![Dashboard Preview](images/dashboard_preview.png)
 
 ---
 
