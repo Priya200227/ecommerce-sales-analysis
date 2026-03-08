@@ -2,81 +2,313 @@
 ### Exploratory Sales & Customer Behavior Analysis — Retail / E-Commerce Industry
 
 ---
-### Dashboard Overview
+
+## Dashboard Overview
 
 ![Dashboard Preview](images/dashboard_preview.png)
 
 ---
+
 # Executive Summary
 
-This project analyzes an **e-commerce retail dataset** to understand revenue performance, customer purchasing behavior, product performance, and return patterns.
+This project analyzes an **e-commerce retail dataset** to evaluate sales performance, customer purchasing behavior, product performance, and return patterns.
 
-The goal was to identify **revenue drivers, return risks, and product-level performance** to help business stakeholders make better operational and marketing decisions.
+The objective of the analysis was to identify **key revenue drivers, operational risks related to product returns, and changes in customer demand over time**.
 
+Using **SQL for data analysis** and **Power BI for visualization**, an interactive dashboard was built to track critical business metrics such as **Net Revenue, Order Volume, Average Order Value (AOV), and Return Rate**.
+
+### Key Insights
+
+- Total revenue reached **₹78.7M across 16K orders**, with an average order value of **₹4,810**  
+- Revenue **peaked in early 2025 before declining later in the year**  
+- The decline was driven by **reduced order volume rather than pricing changes**  
+- **Footwear contributes the majority of revenue but also has the highest return rate (~29%)**  
+- A small number of **top-performing products generate a significant share of total revenue**
 
 ### Business Impact
 
-Key outcomes from the analysis:
+The analysis highlights opportunities to:
 
-- Revenue peaked in **early 2025** before declining later in the year.
-- The decline correlates with a **drop in order volume**, not pricing changes.
-- **Footwear drives the majority of revenue** but also shows the highest return rates.
-- **Top 10 products contribute a large portion of total revenue**, indicating product concentration.
-
-### Recommended Business Actions
-
-- Investigate **footwear return causes** (sizing issues, product quality).
-- Focus marketing efforts on **top-performing products**.
-- Improve **customer retention strategies** to stabilize order volume.
+- Reduce return rates in high-volume categories such as footwear
+- Improve product quality or sizing information
+- Focus marketing and promotional efforts on **top-performing products**
+- Develop strategies to **increase repeat purchases and stabilize demand**
 
 ---
 
 # Business Problem
 
-E-commerce companies often struggle with understanding:
+E-commerce companies often struggle to answer important operational questions such as:
 
-- Which products and categories **drive revenue**
-- Which products generate **high return rates**
-- Whether revenue changes are caused by **pricing changes or order volume**
-- Which customers and products contribute the most to business growth
+- Which products and categories **drive the most revenue**
+- Which categories have **high return rates**
+- Whether revenue changes are caused by **price changes or order volume**
+- Which products contribute most significantly to overall sales
 
-This project aims to answer those questions through **data analysis and dashboarding**.
+Without clear visibility into these metrics, businesses risk making decisions based on incomplete information.
+
+This project addresses these challenges by analyzing transactional sales data and building a **decision-support dashboard** to monitor business performance.
+
+---
+
+# Data Model / Schema
+
+The dataset follows a **relational transactional schema**, similar to a typical e-commerce database structure.
+
+The analysis is built around four core tables:
+
+- **customers**
+- **orders**
+- **order_items**
+- **products**
+
+### Schema Diagram
+
+![Data Model](images/data_model.png)
+
+### Table Relationships
+
+| Table | Description |
+|------|-------------|
+| customers | Contains customer-level information such as city and signup date |
+| orders | Stores order-level transactions and timestamps |
+| order_items | Contains product-level line items within each order |
+| products | Product catalog including category and price |
+
+Key relationships:
+# E-Commerce Revenue & Customer Performance Analysis
+### Exploratory Sales & Customer Behavior Analysis — Retail / E-Commerce Industry
+
+---
+
+## Dashboard Overview
+
+![Dashboard Preview](images/dashboard_preview.png)
+
+---
+
+# Executive Summary
+
+This project analyzes an **e-commerce retail dataset** to evaluate sales performance, customer purchasing behavior, product performance, and return patterns.
+
+The objective of the analysis was to identify **key revenue drivers, operational risks related to product returns, and changes in customer demand over time**.
+
+Using **SQL for data analysis** and **Power BI for visualization**, an interactive dashboard was built to track critical business metrics such as **Net Revenue, Order Volume, Average Order Value (AOV), and Return Rate**.
+
+### Key Insights
+
+- Total revenue reached **₹78.7M across 16K orders**, with an average order value of **₹4,810**  
+- Revenue **peaked in early 2025 before declining later in the year**  
+- The decline was driven by **reduced order volume rather than pricing changes**  
+- **Footwear contributes the majority of revenue but also has the highest return rate (~29%)**  
+- A small number of **top-performing products generate a significant share of total revenue**
+
+### Business Impact
+
+The analysis highlights opportunities to:
+
+- Reduce return rates in high-volume categories such as footwear
+- Improve product quality or sizing information
+- Focus marketing and promotional efforts on **top-performing products**
+- Develop strategies to **increase repeat purchases and stabilize demand**
+
+---
+
+# Business Problem
+
+E-commerce companies often struggle to answer important operational questions such as:
+
+- Which products and categories **drive the most revenue**
+- Which categories have **high return rates**
+- Whether revenue changes are caused by **price changes or order volume**
+- Which products contribute most significantly to overall sales
+
+Without clear visibility into these metrics, businesses risk making decisions based on incomplete information.
+
+This project addresses these challenges by analyzing transactional sales data and building a **decision-support dashboard** to monitor business performance.
+
+---
+
+# Data Model / Schema
+
+The dataset follows a **relational transactional schema**, similar to a typical e-commerce database structure.
+
+The analysis is built around four core tables:
+
+- **customers**
+- **orders**
+- **order_items**
+- **products**
+
+### Schema Diagram
+
+![Data Model](images/data_model.png)
+
+### Table Relationships
+
+| Table | Description |
+|------|-------------|
+| customers | Contains customer-level information such as city and signup date |
+| orders | Stores order-level transactions and timestamps |
+| order_items | Contains product-level line items within each order |
+| products | Product catalog including category and price |
+
+Key relationships:
+# E-Commerce Revenue & Customer Performance Analysis
+### Exploratory Sales & Customer Behavior Analysis — Retail / E-Commerce Industry
+
+---
+
+## Dashboard Overview
+
+![Dashboard Preview](images/dashboard_preview.png)
+
+---
+
+# Executive Summary
+
+This project analyzes an **e-commerce retail dataset** to evaluate sales performance, customer purchasing behavior, product performance, and return patterns.
+
+The objective of the analysis was to identify **key revenue drivers, operational risks related to product returns, and changes in customer demand over time**.
+
+Using **SQL for data analysis** and **Power BI for visualization**, an interactive dashboard was built to track critical business metrics such as **Net Revenue, Order Volume, Average Order Value (AOV), and Return Rate**.
+
+### Key Insights
+
+- Total revenue reached **₹78.7M across 16K orders**, with an average order value of **₹4,810**  
+- Revenue **peaked in early 2025 before declining later in the year**  
+- The decline was driven by **reduced order volume rather than pricing changes**  
+- **Footwear contributes the majority of revenue but also has the highest return rate (~29%)**  
+- A small number of **top-performing products generate a significant share of total revenue**
+
+### Business Impact
+
+The analysis highlights opportunities to:
+
+- Reduce return rates in high-volume categories such as footwear
+- Improve product quality or sizing information
+- Focus marketing and promotional efforts on **top-performing products**
+- Develop strategies to **increase repeat purchases and stabilize demand**
+
+---
+
+# Business Problem
+
+E-commerce companies often struggle to answer important operational questions such as:
+
+- Which products and categories **drive the most revenue**
+- Which categories have **high return rates**
+- Whether revenue changes are caused by **price changes or order volume**
+- Which products contribute most significantly to overall sales
+
+Without clear visibility into these metrics, businesses risk making decisions based on incomplete information.
+
+This project addresses these challenges by analyzing transactional sales data and building a **decision-support dashboard** to monitor business performance.
+
+---
+
+# Data Model / Schema
+
+The dataset follows a **relational transactional schema**, similar to a typical e-commerce database structure.
+
+The analysis is built around four core tables:
+
+- **customers**
+- **orders**
+- **order_items**
+- **products**
+
+### Schema Diagram
+
+![Data Model](images/data_model.png)
+
+### Table Relationships
+
+| Table | Description |
+|------|-------------|
+| customers | Contains customer-level information such as city and signup date |
+| orders | Stores order-level transactions and timestamps |
+| order_items | Contains product-level line items within each order |
+| products | Product catalog including category and price |
+
+Key relationships:
+customers.customer_id → orders.customer_id
+orders.order_id → order_items.order_id
+products.product_id → order_items.product_id
+
+
+This structure enables analysis at multiple levels:
+
+- Customer behavior
+- Order-level performance
+- Product-level sales
+- Category-level contribution
+
+---
+
+# Dataset
+
+The dataset used in this project is a **synthetic e-commerce dataset generated for analytical practice and portfolio development**.
+
+The data simulates realistic retail business activity including:
+
+- Customer registrations
+- Order transactions
+- Product purchases
+- Product returns
+- Category-level sales patterns
+
+### Dataset Characteristics
+
+- ~3,500 customers
+- ~30,000 order item transactions
+- ~200 products
+- 18 months of simulated sales activity
+
+The dataset was programmatically generated using **SQL scripts to simulate realistic business scenarios**, including:
+
+- Seasonal order trends
+- Category-specific return behavior
+- Customer purchasing patterns
+- Product-level sales distribution
+
+The SQL scripts used to generate the dataset are included in the repository for **transparency and reproducibility**.
 
 ---
 
 # Methodology
 
-The analysis was performed using a combination of **SQL-based data analysis and Power BI visualization**.
+The project was completed using a combination of **SQL analysis and Power BI dashboard development**.
 
-### Data Processing & Analysis
+### SQL Data Analysis
 
-The dataset was analyzed using SQL to generate business metrics such as:
+SQL was used to calculate core business metrics including:
 
 - Net Revenue
 - Gross Revenue
-- Average Order Value
+- Average Order Value (AOV)
 - Monthly Growth
-- Category Contribution
+- Category Revenue Contribution
 - Customer Repeat Rate
-- Cohort Retention
+- Cohort Retention Metrics
 
-### Dashboard Development
+Advanced SQL techniques used include:
 
-Power BI was used to build an **interactive business dashboard** with:
+- CTEs (Common Table Expressions)
+- Window functions
+- Aggregations
+- Customer segmentation
+- Cohort analysis
 
-- KPI summary layer
-- Trend analysis
-- Category performance
-- Product performance
-- Interactive filters (Year, City)
+### Power BI Dashboard Development
 
-### Analytical Techniques Used
+Power BI was used to build an interactive analytics dashboard including:
 
-- Revenue decomposition
-- Category contribution analysis
-- Customer behavior analysis
-- Return rate analysis
-- Product performance ranking
+- Executive KPI layer
+- Revenue trend analysis
+- Category performance breakdown
+- Product performance analysis
+- Interactive filtering by year and city
 
 ---
 
@@ -86,15 +318,15 @@ Power BI was used to build an **interactive business dashboard** with:
 - CTEs (Common Table Expressions)
 - Window Functions
 - Joins
-- Aggregation
-- Customer segmentation queries
+- Aggregations
+- Customer segmentation
 - Cohort analysis
 
 ## Power BI
 - Data modeling (Star schema)
 - DAX measures
 - Calculated columns
-- Interactive dashboard design
+- Interactive dashboards
 - KPI visualization
 - Time series analysis
 
@@ -103,55 +335,73 @@ Power BI was used to build an **interactive business dashboard** with:
 - Return rate analysis
 - Customer repeat behavior
 - Product performance analysis
-- Trend analysis
+- Sales trend analysis
 
 ---
 
 # Results & Business Recommendations
 
-### Key Insights
+### Key Findings
 
-1. **Revenue Growth and Decline**
-   - Revenue grew steadily through 2024 and peaked in early 2025.
-   - The decline in revenue is directly linked to **falling order volumes**.
+#### Revenue Trend
 
-2. **Category Performance**
-   - Footwear generates the majority of revenue.
-   - However, it also has the **highest return rate**, indicating potential product issues.
+Revenue increased steadily throughout **2024** and peaked in **early 2025**, followed by a decline later in the year.
 
-3. **Product Concentration**
-   - A small number of products generate a large share of total revenue.
-   - Marketing campaigns should prioritize these products.
+Analysis of the orders trend shows that the decline was driven by **falling order volume rather than changes in pricing or product value**.
 
-### Recommendations
+#### Category Performance
 
-- Investigate product-level issues causing footwear returns.
-- Improve sizing information or product descriptions.
-- Build retention campaigns targeting repeat customers.
-- Promote top-performing products to maximize revenue.
+- **Footwear** contributes the majority of total revenue
+- However, footwear also shows the **highest return rate**
+
+This suggests potential operational issues related to:
+
+- Product sizing
+- Product quality
+- Customer expectations
+
+#### Product Contribution
+
+A small number of **top-performing products generate a large portion of overall revenue**, indicating product concentration.
+
+---
+
+### Business Recommendations
+
+Based on the analysis:
+
+- Investigate root causes of **high footwear returns**
+- Improve **product descriptions and sizing guides**
+- Focus marketing on **top-performing products**
+- Develop strategies to **increase repeat customer purchases**
 
 ---
 
 # Next Steps
 
-If more time were available, the analysis could be extended by:
+If additional time and data were available, the analysis could be expanded to include:
 
-- Performing **customer segmentation** (RFM analysis).
-- Investigating **return reasons** to identify operational issues.
-- Adding **profit analysis** rather than only revenue.
-- Analyzing **customer lifetime value (CLV)**.
-- Building **predictive models** to forecast revenue trends.
+- **RFM customer segmentation**
+- **Customer Lifetime Value (CLV) analysis**
+- **Return reason analysis**
+- **Profitability analysis (revenue vs cost)**
+- **Predictive sales forecasting**
 
-### Project Limitations
+---
 
-- Dataset does not include **profit or cost information**.
-- No information about **return reasons** is available.
-- Marketing spend data is unavailable, limiting attribution analysis.
+# Project Limitations
 
-Future analysis could incorporate these datasets for deeper business insights.
+Since the dataset is synthetically generated, it does not fully capture all real-world business complexities such as:
+
+- Marketing spend
+- Profit margins
+- Detailed return reasons
+- Inventory constraints
+
+Future analysis could incorporate these datasets for deeper operational insights.
 
 ---
 
 # Dashboard
 
-Power BI dashboard file is available in the repository:
+The interactive Power BI dashboard file is available in this repository:
