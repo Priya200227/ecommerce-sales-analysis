@@ -77,9 +77,9 @@ The analysis is built around four core tables:
 
 Key relationships:
 
-customers.customer_id → orders.customer_id
-orders.order_id → order_items.order_id
-products.product_id → order_items.product_id
+- customers.customer_id → orders.customer_id
+- orders.order_id → order_items.order_id
+- products.product_id → order_items.product_id
 
 This structure enables analysis at multiple levels:
 
