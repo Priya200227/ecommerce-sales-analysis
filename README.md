@@ -41,10 +41,6 @@ This project aims to answer those questions through **data analysis and dashboar
 
 ![Dashboard Preview](Dashboard.png)
 
-### Revenue Trend Example
-
-![Revenue Trend](images/revenue_trend.png)
-
 ---
 
 # Methodology
