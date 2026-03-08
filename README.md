@@ -39,7 +39,7 @@ This project aims to answer those questions through **data analysis and dashboar
 
 ### Dashboard Overview
 
-![Dashboard Preview](dashboard_preview.png)
+![Dashboard Preview](images/dashboard_preview.png)
 
 ---
 
