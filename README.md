@@ -77,7 +77,6 @@ The analysis is built around four core tables:
 
 Key relationships:
 
-
 customers.customer_id → orders.customer_id
 orders.order_id → order_items.order_id
 products.product_id → order_items.product_id
@@ -244,9 +243,3 @@ Since the dataset is synthetically generated, it does not fully capture all real
 - Inventory constraints
 
 Future analysis could incorporate these datasets for deeper operational insights.
-
----
-
-# Dashboard
-
-The interactive Power BI dashboard file is available in this repository:
