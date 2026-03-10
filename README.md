@@ -304,13 +304,11 @@ Future analysis could incorporate these datasets for deeper operational insights
 1. Clone the repository
 git clone https://github.com/Priya200227/ecommerce-sales-analysis.git
 
-2. Open the Python notebook
-    ![Notebook Preview](notebooks/revenue_analysis.ipynb)
+2. Open the Python notebook <br>
+   notebooks/revenue_analysis.ipynb
 
-3. Run the notebook to reproduce analysis.
-
-4. Open the Power BI dashboard:
-    ![Dashboard Preview](images/dashboard_preview.png)
+3. Run the notebook to reproduce analysis. <br>
+   dashboard/ecommerce_dashboard.pbix to explore the interactive dashboard.
 ---
 
 ### Tags
