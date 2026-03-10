@@ -310,7 +310,7 @@ notebooks/revenue_analysis.ipynb
 3. Run the notebook to reproduce analysis.
 
 4. Open the Power BI dashboard : <br>
-dashboard/ecommerce_dashboard.pbix <br> to explore the interactive dashboard.
+ to explore the interactive dashboard, dashboard/ecommerce_dashboard.pbix 
 ---
 
 ### Tags
