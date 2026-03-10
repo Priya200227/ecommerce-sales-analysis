@@ -1,5 +1,5 @@
 # E-Commerce Revenue & Customer Performance Analysis
-### Exploratory Sales & Customer Behavior Analysis — Retail / E-Commerce Industry
+### SQL, Python & Power BI Sales Analytics — Retail / E-Commerce Industry
 
 ---
 
@@ -144,6 +144,52 @@ Advanced SQL techniques used include:
 - Customer segmentation
 - Cohort analysis
 
+## Python Revenue Analysis & Anomaly Detection
+
+In addition to SQL analysis and dashboard development, Python was used to perform deeper analytical exploration of revenue trends.
+
+The following analytical tasks were performed using **Pandas and Matplotlib**:
+
+- Monthly revenue trend analysis
+- Category-level revenue analysis
+- Top product performance analysis
+- Automated anomaly detection in revenue trends
+- Automated generation of business insights
+
+### Revenue Trend Analysis
+
+Monthly revenue was aggregated using Python to replicate and validate the dashboard metrics.  
+This analysis allows the revenue trend to be analyzed programmatically outside BI tools.
+
+![Revenue Trend](images/python_revenue_trend.png)
+
+---
+
+### Revenue Anomaly Detection
+
+Z-score based anomaly detection was applied to the monthly revenue series to identify periods where revenue significantly deviates from the historical average.
+
+Values exceeding **1.5 standard deviations from the mean** were flagged as anomalies.
+
+These anomalies correspond to revenue peaks and unusually low revenue periods, highlighting potential changes in demand patterns.
+
+![Revenue Anomaly Detection](images/revenue_anomaly_detection.png)
+
+## Automated Business Insight Generation
+
+To simulate AI-assisted analytics workflows, Python was used to automatically generate business insights from aggregated metrics.
+
+Key metrics such as:
+
+- Total Revenue
+- Top Performing Category
+- Top Performing Product
+- Return Rate
+
+were computed programmatically and converted into automated textual insights.
+
+This approach demonstrates how analytical pipelines can automatically transform numerical metrics into business-friendly explanations.
+
 ### Power BI Dashboard Development
 
 Power BI was used to build an interactive analytics dashboard including:
@@ -166,6 +212,13 @@ Power BI was used to build an interactive analytics dashboard including:
 - Customer segmentation
 - Cohort analysis
 
+## Python
+- Pandas for data manipulation
+- Matplotlib for visualization
+- Revenue trend analysis
+- Z-score anomaly detection
+- Automated insight generation
+  
 ## Power BI
 - Data modeling (Star schema)
 - DAX measures
@@ -180,6 +233,7 @@ Power BI was used to build an interactive analytics dashboard including:
 - Customer repeat behavior
 - Product performance analysis
 - Sales trend analysis
+- Anomaly detection
 
 ---
 
