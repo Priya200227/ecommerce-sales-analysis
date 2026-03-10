@@ -163,8 +163,6 @@ This analysis allows the revenue trend to be analyzed programmatically outside B
 
 ![Revenue Trend](images/python_revenue_trend.png)
 
----
-
 ### Revenue Anomaly Detection
 
 Z-score based anomaly detection was applied to the monthly revenue series to identify periods where revenue significantly deviates from the historical average.
@@ -189,6 +187,8 @@ Key metrics such as:
 were computed programmatically and converted into automated textual insights.
 
 This approach demonstrates how analytical pipelines can automatically transform numerical metrics into business-friendly explanations.
+
+---
 
 ### Power BI Dashboard Development
 
