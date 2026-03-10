@@ -173,7 +173,7 @@ Values exceeding **1.5 standard deviations from the mean** were flagged as anoma
 
 These anomalies correspond to revenue peaks and unusually low revenue periods, highlighting potential changes in demand patterns.
 
-![Revenue Anomaly Detection](images/revenue_anomaly_detection.png)
+![Revenue Anomaly Detection](images/pyhton_revenue_anomaly_detection.png)
 
 ## Automated Business Insight Generation
 
