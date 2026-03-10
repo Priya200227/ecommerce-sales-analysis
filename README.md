@@ -297,3 +297,27 @@ Since the dataset is synthetically generated, it does not fully capture all real
 - Inventory constraints
 
 Future analysis could incorporate these datasets for deeper operational insights.
+
+
+## How to Reproduce This Analysis
+
+1. Clone the repository
+git clone https://github.com/Priya200227/ecommerce-sales-analysis.git
+
+2. Open the Python notebook
+notebooks/revenue_analysis.ipynb
+
+3. Run the notebook to reproduce analysis.
+
+4. Open the Power BI dashboard:
+dashboard/ecommerce_dashboard.pbix
+---
+
+### Tags
+
+`Data Analytics`  
+`SQL`  
+`Python`  
+`Power BI`  
+`Business Intelligence`  
+`E-Commerce Analytics`
