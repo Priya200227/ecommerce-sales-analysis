@@ -58,6 +58,39 @@ This project builds a **data-driven sales analytics dashboard** to support busin
 
 ---
 
+# Dataset
+
+The dataset used in this project is a **synthetic e-commerce dataset generated for analytical practice and portfolio development**.
+
+The data was programmatically generated using **SQL scripts with AI-assisted data simulation** to mimic realistic retail transactions.
+
+The dataset simulates typical e-commerce operations including:
+
+- Customer registrations
+- Order transactions
+- Product purchases
+- Product returns
+- Category-level sales patterns
+
+### Dataset Characteristics
+
+- ~3,500 customers
+- ~16,000 orders
+- ~30,000 order item transactions
+- ~200 products
+- ~18 months of simulated sales activity
+
+The dataset structure follows a **typical e-commerce relational schema**, allowing analysis of:
+
+- Customer purchasing behavior
+- Product performance
+- Category-level revenue
+- Return rate patterns
+
+The SQL scripts used to generate the dataset are included in the repository for **transparency and reproducibility**.
+
+---
+
 # Methodology
 
 The analysis was conducted using **SQL, Python, and Power BI**.
