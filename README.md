@@ -134,9 +134,9 @@ Libraries used:
 
 Example visualizations:
 
-![Revenue Trend](images/python_revenue_trend.png)
+![Revenue Trend](images/python_monthly_revenue_trend.png)
 
-![Revenue Anomaly Detection](images/python_revenue_anomaly_detection.png)
+![Revenue Anomaly Detection](images/python_revenue_with_anomaly.png)
 
 ---
 
