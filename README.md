@@ -136,7 +136,7 @@ Example visualizations:
 
 ![Revenue Trend](images/python_monthly_revenue_trend.png)
 
-![Revenue Anomaly Detection](images/python_revenue_with_anomaly.png)
+![Revenue Anomaly Detection](images/python_revenue_with_anomaly_detection.png)
 
 ---
 
