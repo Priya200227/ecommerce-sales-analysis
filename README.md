@@ -30,7 +30,8 @@ Build a data-driven solution to:
 
 ## 📊 Dashboard Preview
 
-![Dashboard](images/dashboard_preview.png)
+![Dashboard](images/dashboard_preview_1.png)
+![Dashboard](images/dashboard_preview_2.png)
 
 ---
 
