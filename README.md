@@ -1,248 +1,172 @@
-# E-Commerce Revenue & Customer Performance Analysis
-### Retail Analytics Project | SQL • Python • Power BI
+# 📊 Revenue Decline & Return Optimization Analysis
 
-This project analyzes an **e-commerce retail dataset** to understand sales performance, customer purchasing behavior, product performance, and return patterns.
-
-Using **SQL for data analysis, Python for exploratory analysis, and Power BI for visualization**, the project identifies key revenue drivers and operational risks related to product returns.
+### E-Commerce Analytics Project | SQL • Python • Power BI
 
 ---
 
-# Dashboard Preview
+## 🔴 Business Problem
+
+An e-commerce business experienced a **decline in revenue after early 2025**, despite stable pricing (AOV).
+
+The challenge was to identify:
+
+* What caused the revenue decline?
+* Which categories and products are impacting performance?
+* How customer behavior influences revenue?
+* What actions can recover growth?
+
+---
+
+## 🎯 Objective
+
+Build a data-driven solution to:
+
+* Diagnose revenue decline drivers
+* Identify high-return and high-risk product categories
+* Analyze customer contribution to revenue
+* Provide actionable business recommendations
+
+---
+
+## 📊 Dashboard Preview
 
 ![Dashboard](images/dashboard_preview.png)
 
 ---
 
-# Executive Summary
+## 📌 Dashboard Structure
 
-E-commerce businesses generate large volumes of transactional data but often lack clear visibility into the drivers of revenue growth and product performance.
+### 🔹 Page 1: Executive Overview
 
-This project analyzes sales data to answer key business questions:
-
-- Which products and categories drive the most revenue?
-- How does revenue change over time?
-- Which categories have the highest return rates?
-- Which products contribute the most to overall sales?
-
-### Key Insights
-
-- Total revenue reached **₹78.7M across 16K orders**
-- **Average Order Value (AOV) ≈ ₹4,810**
-- Revenue peaked in **early 2025 before declining later**
-- **Footwear generates the highest revenue but also the highest return rate (~29%)**
-- A small number of **top products drive a large share of revenue**
-
-### Business Impact
-
-The analysis highlights opportunities to:
-
-- Reduce return rates in high-volume categories
-- Improve product information such as sizing or descriptions
-- Focus marketing efforts on top-performing products
-- Increase repeat customer purchases
+* KPI metrics: Revenue, Orders, AOV, Return Rate
+* Monthly Revenue Trend
+* Monthly Orders Trend
+* Category Performance (Trend)
+* Customer Segmentation (New vs Repeat)
+* Geographic Revenue Distribution
+* Key Business Insights
 
 ---
 
-# Business Problem
+### 🔹 Page 2: Product & Return Analysis
 
-E-commerce companies often struggle to answer important operational questions:
-
-- Which products generate the most revenue?
-- Which categories experience high product returns?
-- Are revenue changes driven by pricing or order volume?
-- Which products contribute most significantly to total sales?
-
-Without clear insight into these metrics, businesses risk making decisions based on incomplete information.
-
-This project builds a **data-driven sales analytics dashboard** to support business decision-making.
+* Revenue vs Return Rate (Product-level scatter analysis)
+* Return Rate by Category
+* Top Revenue-Generating Products
+* Customer Revenue Contribution
 
 ---
 
-# Dataset
+## 🔍 Key Insights
 
-The dataset used in this project is a **synthetic e-commerce dataset generated for analytical practice and portfolio development**.
-
-The data was programmatically generated using **SQL scripts with AI-assisted data simulation** to mimic realistic retail transactions.
-
-The dataset simulates typical e-commerce operations including:
-
-- Customer registrations
-- Order transactions
-- Product purchases
-- Product returns
-- Category-level sales patterns
-
-### Dataset Characteristics
-
-- ~3,500 customers
-- ~16,000 orders
-- ~30,000 order item transactions
-- ~200 products
-- ~18 months of simulated sales activity
-
-The dataset structure follows a **typical e-commerce relational schema**, allowing analysis of:
-
-- Customer purchasing behavior
-- Product performance
-- Category-level revenue
-- Return rate patterns
-
-The SQL scripts used to generate the dataset are included in the repository for **transparency and reproducibility**.
+* Total revenue reached **₹78.7M across 16K orders**
+* Revenue declined after early 2025 due to a **drop in order volume**, while AOV remained stable
+* **Footwear contributes ~65% of revenue but has the highest return rate (~26%)**
+* **Repeat customers drive ~80% of total revenue**, indicating strong retention but dependency risk
+* Several **high-revenue products also have high return rates**, impacting efficiency
 
 ---
 
-# Methodology
+## 💡 Business Recommendations
 
-The analysis was conducted using **SQL, Python, and Power BI**.
-
-### SQL Analysis
-
-SQL was used to compute core business metrics including:
-
-- Total Revenue
-- Average Order Value (AOV)
-- Monthly Revenue Trends
-- Category Revenue Contribution
-- Product Performance
-- Return Rate Analysis
-
-Techniques used:
-
-- Joins
-- Aggregations
-- CTEs
-- Window functions
+* Reduce return rates in Footwear by improving **product quality and sizing accuracy**
+* Identify and optimize **high-return, high-revenue products**
+* Focus marketing efforts on **top-performing products**
+* Increase repeat purchases through **targeted retention campaigns**
+* Monitor order volume trends to detect early demand drops
 
 ---
 
-### Python Analysis
+## 🧠 Analytical Approach
 
-Python was used for deeper analysis and visualization.
+### 🔹 SQL
 
-Key tasks performed:
+* Revenue, AOV, and return rate calculations
+* Product and category performance analysis
+* Joins, aggregations, CTEs, and window functions
 
-- Monthly revenue trend analysis
-- Product performance exploration
-- Revenue anomaly detection
-- Automated business insight generation
+### 🔹 Python
 
-Libraries used:
+* Trend validation and exploratory analysis
+* Revenue pattern identification
+* Data preprocessing and EDA
 
-- Pandas
-- NumPy
-- Matplotlib
+### 🔹 Power BI
 
-Example visualizations:
-
-![Revenue Trend](images/python_monthly_revenue_trend.png)
-
-![Revenue Anomaly Detection](images/python_revenue_with_anomaly_detection.png)
+* Data modeling and relationships
+* DAX measures (KPIs, return rate, customer segmentation)
+* Interactive dashboard with filters and drill-down
 
 ---
 
-### Power BI Dashboard
+## 🧱 Dataset
 
-An interactive Power BI dashboard was built to monitor key sales metrics.
+Synthetic dataset generated to simulate real-world e-commerce operations:
 
-Dashboard components include:
-
-- Executive KPI metrics
-- Monthly revenue trend
-- Category performance breakdown
-- Product performance analysis
-- Return rate monitoring
+* ~3,500 customers
+* ~16,000 orders
+* ~30,000 order items
+* ~200 products
+* ~18 months of transaction data
 
 ---
 
-# Skills Demonstrated
+## 🛠 Tools Used
 
-### SQL
-- Joins
-- Aggregations
-- CTEs
-- Window Functions
-- Revenue calculations
-
-### Python
-- Pandas data manipulation
-- Matplotlib visualization
-- Revenue trend analysis
-- Anomaly detection
-
-### Power BI
-- Data modeling
-- DAX measures
-- KPI dashboards
-- Interactive visualizations
-
-### Data Analysis Concepts
-
-- Revenue analytics
-- Return rate analysis
-- Product performance analysis
-- Customer purchasing behavior
-- Sales trend analysis
+* SQL
+* Python (Pandas, NumPy, Matplotlib)
+* Power BI
 
 ---
 
-# Results & Business Recommendations
+## 🚀 Skills Demonstrated
 
-### Key Findings
-
-- Revenue grew steadily before declining later in the year
-- The decline was caused primarily by **lower order volume**
-- **Footwear dominates revenue but also drives returns**
-- A small number of products generate a large share of total sales
-
-### Business Recommendations
-
-- Investigate root causes of high return rates in footwear
-- Improve product descriptions and sizing guides
-- Focus promotions on top-performing products
-- Encourage repeat purchases through targeted campaigns
+* Business problem framing
+* Revenue and trend analysis
+* Return rate diagnostics
+* Product performance analysis
+* Customer segmentation
+* Dashboard storytelling
+* Data-driven decision making
 
 ---
 
-# Next Steps
+## 📈 Project Outcome
 
-Future improvements could include:
+This project demonstrates the ability to:
 
-- Customer segmentation (RFM analysis)
-- Customer lifetime value analysis
-- Profitability analysis
-- Predictive sales forecasting
-
-Additional marketing and customer behavior data could provide deeper insights into purchasing patterns.
+* Translate raw data into **actionable business insights**
+* Identify **root causes of revenue decline**
+* Recommend **data-driven strategies**
+* Build **interactive dashboards for decision-making**
 
 ---
 
-# Tools Used
+## 🔮 Future Improvements
 
-- SQL
-- Python (Pandas, NumPy, Matplotlib)
-- Power BI
-- Jupyter Notebook
-
----
-
-# How to Reproduce This Project
-
-1. Clone the repository <br>
-git clone https://github.com/Priya200227/ecommerce-sales-analysis.git
-
-2. Run SQL queries from the **sql** folder
-
-3. Open the Python notebook for analysis
-
-4. Open the Power BI dashboard to explore the interactive report
+* Customer segmentation (RFM analysis)
+* Customer Lifetime Value (CLV)
+* Profitability analysis
+* Sales forecasting
 
 ---
 
-# Tags
+## ⚙️ How to Run the Project
 
-`Data Analytics` 
-`SQL`  
-`Python`  
-`Power BI`  
-`Business Intelligence`  
-`E-Commerce Analytics`
+1. Clone the repository
+
+   ```bash
+   git clone https://github.com/Priya200227/ecommerce-sales-analysis.git
+   ```
+
+2. Run SQL scripts from the `/sql` folder
+
+3. Execute Python notebooks
+
+4. Open Power BI dashboard
+
+---
+
+## 🏷 Tags
+
+`Data Analyst` `SQL` `Python` `Power BI` `E-Commerce Analytics` `Business Intelligence`
